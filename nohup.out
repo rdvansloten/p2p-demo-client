@@ -1,0 +1,167 @@
+Exception in thread Thread-1 (listen):
+Exception in thread Thread-1 (listen):
+Exception in thread Thread-1 (listen):
+Traceback (most recent call last):
+Exception in thread Thread-1 (listen):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1 (listen):
+Traceback (most recent call last):
+Exception in thread Thread-1 (listen):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Exception in thread Thread-1 (listen):
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50003 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50003
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50006 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50006
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+Traceback (most recent call last):
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50007 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50007
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+Traceback (most recent call last):
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50002 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50002
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+    self._target(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 52, in listen
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50001 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50001
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+Traceback (most recent call last):
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50004 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50004
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+> Connecting to server
+Checked in with server, waiting...
+127.0.0.1 50005 51000
+
+got peer
+  ip:          127.0.0.1
+  source port: 50005
+  dest port:   51000
+
+Punching hole
+ready to exchange messages
+
+Traceback (most recent call last):
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+    self.run()
+    sock.bind(('0.0.0.0', dport))
+OSError: [Errno 48] Address already in use
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 52, in listen
+    sock.bind(('0.0.0.0', sport))
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+Traceback (most recent call last):
+    self.run()
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 62, in <module>
+OSError: [Errno 48] Address already in use
+    sock.bind(('0.0.0.0', dport))
+OSError: [Errno 48] Address already in use
+    self.run()
+    sock.bind(('0.0.0.0', dport))
+  File "/opt/homebrew/Cellar/python@3.10/3.10.9/Frameworks/Python.framework/Versions/3.10/lib/python3.10/threading.py", line 953, in run
+OSError: [Errno 48] Address already in use
+    sock.bind(('0.0.0.0', dport))
+OSError: [Errno 48] Address already in use
+Traceback (most recent call last):
+    sock.bind(('0.0.0.0', dport))
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 65, in <module>
+    msg = input('> ')
+    sock.bind(('0.0.0.0', dport))
+OSError: [Errno 48] Address already in use
+    self._target(*self._args, **self._kwargs)
+EOFError: EOF when reading a line
+    self._target(*self._args, **self._kwargs)
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 52, in listen
+OSError: [Errno 48] Address already in use
+  File "/Users/rdvansloten/Git/github/rdvansloten/p2p-demo/client.py", line 52, in listen
+Fatal Python error: _enter_buffered_busy: could not acquire lock for <_io.BufferedWriter name='<stderr>'> at interpreter shutdown, possibly due to daemon threads
+Python runtime state: finalizing (tstate=0x0000000154e04d80)
+
+Current thread 0x0000000204f4ba80 (most recent call first):
+  <no Python frame>
+Fatal Python error: _enter_buffered_busy: could not acquire lock for <_io.BufferedWriter name='<stderr>'> at interpreter shutdown, possibly due to daemon threads
+Python runtime state: finalizing (tstate=0x000000014ce04d80)
+
+Current thread 0x0000000204f4ba80 (most recent call first):
+  <no Python frame>

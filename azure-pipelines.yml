@@ -1,0 +1,17 @@
+pool: 'Azure Pipelines'
+
+trigger:
+  - main
+
+steps:
+- task: Docker@2
+  displayName: Build and Push to Docker Container Registry
+  inputs:
+    containerRegistry: 'Docker Hub'
+    repository: rdvansloten/p2p-demo-client
+    command: 'buildAndPush'
+    Dockerfile: 'Dockerfile'
+    addPipelineData: false
+    tags: |
+      $(Build.BuildId)
+      latest
